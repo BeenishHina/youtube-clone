@@ -1,0 +1,25 @@
+span{
+    margin-right: 1rem;
+    padding: 0.5rem;
+
+    /* white-space: nowrap; */
+    border: 1.5px solid rgb(176, 175, 175);
+    border-radius: 999px;
+    background-color: rgb(243, 242, 242);
+    max-width: 20rem;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
+span:hover{
+    background-color: grey;
+}
+span.selected{
+    background-color: black;
+    color: white;
+}
+.CategoriesBar{
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    display: flex;
+    /* overflow: scroll; */
+}
